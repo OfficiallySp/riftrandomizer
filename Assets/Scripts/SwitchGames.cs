@@ -14,4 +14,9 @@ public class SwitchGames : MonoBehaviour
     {
         SceneManager.LoadScene("League");
     }
+    
+    public void GoToArena()
+    {
+        SceneManager.LoadScene("Arena");
+    }
 }
